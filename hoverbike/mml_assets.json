@@ -1,0 +1,67 @@
+{
+  "units": "metres, glTF +Y up, bike faces +X",
+  "jets_mml": [
+    {
+      "name": "rear",
+      "x": -1.63,
+      "y": 0.65,
+      "z": 0,
+      "ry": 180,
+      "rz": 0,
+      "sx": 1.0,
+      "sy": 1.0,
+      "sz": 1.0
+    },
+    {
+      "name": "side_l",
+      "x": -1.28,
+      "y": 0.52,
+      "z": -0.35,
+      "ry": 180,
+      "rz": 0,
+      "sx": 0.52,
+      "sy": 0.57,
+      "sz": 0.57
+    },
+    {
+      "name": "side_r",
+      "x": -1.28,
+      "y": 0.52,
+      "z": 0.35,
+      "ry": 180,
+      "rz": 0,
+      "sx": 0.52,
+      "sy": 0.57,
+      "sz": 0.57
+    },
+    {
+      "name": "lift_l",
+      "x": -0.3,
+      "y": 0.275,
+      "z": -0.21,
+      "ry": 0,
+      "rz": -90,
+      "sx": 0.4,
+      "sy": 0.46,
+      "sz": 0.46
+    },
+    {
+      "name": "lift_r",
+      "x": -0.3,
+      "y": 0.275,
+      "z": 0.21,
+      "ry": 0,
+      "rz": -90,
+      "sx": 0.4,
+      "sy": 0.46,
+      "sz": 0.46
+    }
+  ],
+  "bike_triangles": 27210,
+  "jet_triangles": 1920,
+  "files": {
+    "HoverBike_MML.glb": 2404692,
+    "HoverBike_MML_Body.glb": 2361184,
+    "PlasmaJet_MML.glb": 42868
+  }
+}

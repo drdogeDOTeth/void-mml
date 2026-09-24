@@ -1,0 +1,19 @@
+<!-- VOID hover bike: flying a banked loop 20 m around its placement point, 6 m up, one lap every 13 s.
+     Static MML for Otherside (otherside.xyz/mmls). Built by OtherSideOdk/mml/make_hoverbike_mml.py. -->
+<m-group id="void-hoverbike-flyby" y="6">
+  <m-attr-anim attr="y" start="4.8" end="7.8" duration="9000" ping-pong="true" easing="easeInOutSine"></m-attr-anim>
+  <m-group>
+    <m-attr-anim attr="ry" start="0" end="360" duration="13000" easing="linear"></m-attr-anim>
+    <m-group z="20" rx="-20">
+      <m-light type="point" color="#5fd8ff" intensity="3" distance="8" x="-1.6" y="0.6" cast-shadows="false"></m-light>
+      <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/HoverBike_MML_Body.glb"></m-model>
+      <m-group>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.63" y="0.65" z="0" ry="180" rz="0" sx="1" sy="1" sz="1" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.86" end="1.12" duration="150" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.28" y="0.52" z="-0.35" ry="180" rz="0" sx="0.494" sy="0.57" sz="0.57" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.425" end="0.553" duration="187" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.28" y="0.52" z="0.35" ry="180" rz="0" sx="0.494" sy="0.57" sz="0.57" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.425" end="0.553" duration="224" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-0.3" y="0.275" z="-0.21" ry="0" rz="-90" sx="0.2" sy="0.46" sz="0.46" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.172" end="0.224" duration="261" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-0.3" y="0.275" z="0.21" ry="0" rz="-90" sx="0.2" sy="0.46" sz="0.46" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.172" end="0.224" duration="298" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+      </m-group>
+    </m-group>
+  </m-group>
+</m-group>

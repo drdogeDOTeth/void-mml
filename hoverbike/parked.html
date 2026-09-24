@@ -1,0 +1,22 @@
+<!-- VOID hover bike: hovering in place. Place it on the ground; it floats about half a metre up.
+     Static MML for Otherside (otherside.xyz/mmls). Built by OtherSideOdk/mml/make_hoverbike_mml.py. -->
+<m-group id="void-hoverbike-parked">
+  <m-light type="point" color="#5fd8ff" intensity="2" distance="5" y="0.2" cast-shadows="false">
+    <m-attr-anim attr="intensity" start="1.4" end="2.6" duration="1700" ping-pong="true" easing="easeInOutSine"></m-attr-anim>
+  </m-light>
+  <m-group y="0.45">
+    <m-attr-anim attr="y" start="0.35" end="0.6" duration="3400" ping-pong="true" easing="easeInOutSine"></m-attr-anim>
+    <m-group>
+      <m-attr-anim attr="rx" start="-1.5" end="1.5" duration="5300" ping-pong="true" easing="easeInOutSine"></m-attr-anim>
+      <m-attr-anim attr="rz" start="-1" end="1" duration="4100" ping-pong="true" easing="easeInOutSine"></m-attr-anim>
+      <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/HoverBike_MML_Body.glb"></m-model>
+      <m-group>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.63" y="0.65" z="0" ry="180" rz="0" sx="0.35" sy="1" sz="1" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.301" end="0.392" duration="190" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.28" y="0.52" z="-0.35" ry="180" rz="0" sx="0.156" sy="0.57" sz="0.57" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.134" end="0.175" duration="227" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-1.28" y="0.52" z="0.35" ry="180" rz="0" sx="0.156" sy="0.57" sz="0.57" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.134" end="0.175" duration="264" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-0.3" y="0.275" z="-0.21" ry="0" rz="-90" sx="0.22" sy="0.46" sz="0.46" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.189" end="0.246" duration="301" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+        <m-model src="https://drdogedoteth.github.io/void-mml/hoverbike/PlasmaJet_MML.glb" x="-0.3" y="0.275" z="0.21" ry="0" rz="-90" sx="0.22" sy="0.46" sz="0.46" collide="false" cast-shadows="false"><m-attr-anim attr="sx" start="0.189" end="0.246" duration="338" ping-pong="true" easing="easeInOutSine"></m-attr-anim></m-model>
+      </m-group>
+    </m-group>
+  </m-group>
+</m-group>
