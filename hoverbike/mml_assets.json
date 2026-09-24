@@ -57,11 +57,20 @@
       "sz": 0.46
     }
   ],
+  "seat_color_linear": [
+    0.0,
+    0.604,
+    0.787
+  ],
   "bike_triangles": 27210,
+  "lite_bike_triangles": 7586,
   "jet_triangles": 1920,
+  "lite_jet_triangles": 400,
   "files": {
-    "HoverBike_MML.glb": 2404472,
-    "HoverBike_MML_Body.glb": 2361060,
-    "PlasmaJet_MML.glb": 42716
+    "HoverBike_MML.glb": 2404464,
+    "HoverBike_MML_Body.glb": 2361052,
+    "HoverBike_MML_Lite.glb": 1787048,
+    "PlasmaJet_MML.glb": 42716,
+    "PlasmaJet_MML_Lite.glb": 12300
   }
 }

@@ -15,6 +15,17 @@ To use one in Otherside, add its URL and a name at https://www.otherside.xyz/mml
 in-world MML menu (MML Director role).
 
 They use only tags Otherside's Unreal clients support (`m-group`, `m-model`, `m-light`, `m-attr-anim`) and no
-script, so they stay up without a server. Models: `HoverBike_MML_Body.glb` (27,210 triangles),
-`HoverBike_MML.glb` (the bike with its five plasma jets, for the attachment) and `PlasmaJet_MML.glb` (one plume,
-1 m along +X). Metres, +Y up, the bike faces +X.
+script, so they stay up without a server.
+
+The rideable version, a dock where every player gets their own bike that follows them (built for 100+ players),
+is a scripted document run from the MML Editor. It is not hosted here, but it loads its models from here.
+
+| Model | Use |
+|---|---|
+| `HoverBike_MML_Body.glb` | the bike, full detail (27,210 triangles), no plumes |
+| `HoverBike_MML.glb` | the bike with its five plasma plumes, for the attachment |
+| `HoverBike_MML_Lite.glb` | the crowd bike: 7,586 triangles with the side and lift plumes baked in, no rear plume |
+| `PlasmaJet_MML.glb`, `PlasmaJet_MML_Lite.glb` | one plume (1,920 / 400 triangles), 1 m along +X from the nozzle |
+
+Metres, +Y up, the bike faces +X, origin on the ground under its middle. The seat is aqua blue. Light and
+material emission never exceed 1.
